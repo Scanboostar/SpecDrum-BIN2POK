@@ -1,5 +1,5 @@
 # SpecDrum-BIN2POK
-Convert a binary SpecDrum Kit to POK file(s)
+Convert audio samples in a binary SpecDrum Kit file (.BIN) to .POK file(s) for the ZX Spectrum
 
 In the article [Loading your own samples into the Cheetah SpecDrum](https://m-harrison.org/loading-your-own-samples-into-the-cheetah-specdrum/) Matt describes how to prepare a kit that can be used with SpecDrum on the ZX Spectrum.
 
@@ -13,5 +13,5 @@ Sample2PokInst.pl - Create a .POK file (on disk) for each instrument so that the
 
 Loading .POK files is quite slow, even on the NEXT and a faster clock speeds have no effect on loading times. 
 
-After the desired instrument mix has been loaded into SpecDrum a memory snapshot saved for convenient future use.
+After the desired instrument mix has been loaded into SpecDrum a memory snapshot can be saved, as a .SNA file, for convenient future use in SpecDrum sessions.
 Matt's creations are included as .POK files. Using Matt's description you can also create your own instruments.
